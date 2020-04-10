@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <title>Document</title>
@@ -17,7 +17,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['Maharashtra', 'Tamil Nadu', 'Delhi', 'Rajashthan', 'Teleangana', 'Madhya Pradesh'],
+        labels: ['Maharashtra', 'Tamil Nadu', 'Delhi', 'Rajashthan', 'Telangana', 'Madhya Pradesh'],
         datasets: [{
             label: 'Active Cases',
             data: [1141,
@@ -84,7 +84,7 @@ var ctx = document.getElementById('myChart1').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'pie',
     data: {
-        labels: ['Maharashtra', 'Tamil Nadu', 'Delhi', 'Rajashthan', 'Teleangana', 'Madhya Pradesh'],
+        labels: ['Maharashtra', 'Tamil Nadu', 'Delhi', 'Rajashthan', 'Telangana', 'Madhya Pradesh'],
         datasets: [{
             label: 'No of Deaths',
             data: [99, 8, 12, 3, 12, 33],
